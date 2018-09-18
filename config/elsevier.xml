@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE journal>
+<journal>
+	<hostname>https://www.sciencedirect.com</hostname>
+	<threads>1</threads> <!-- to avoid blocking by server -->
+	<sleep>2000</sleep>
+	<!-- how many time to sleep between to requests,in microseconds -->
+	<handler value="com.journal.handler.ElsevierHandler" />
+	<table>elsevier</table>
+	<pagination></pagination>
+	
+	<title></title>
+	<journal></journal>
+	<issn></issn>
+	<eissn></eissn>
+	<year></year>
+	<month></month>
+	<volume></volume>
+	<issue></issue>
+	<doi></doi>
+	<page_start></page_start>
+	<page_end></page_end>
+	<authors></authors>
+	<affiliations></affiliations>
+	<abstract></abstract>
+	<keywords></keywords>
+	<html_url></html_url>
+	<pdf_url></pdf_url>
+</journal>
